@@ -18,4 +18,4 @@ Tecnologías utilizadas
     AOS (animaciones)
     
 Sitio web
-    Enlace: 
+    Enlace: https://gaallope.netlify.app/
