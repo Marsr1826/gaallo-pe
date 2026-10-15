@@ -1,0 +1,21 @@
+@mixin responsive($ancho) {
+  @media (min-width: $ancho) {
+    @content;
+  }
+}
+
+@mixin boton($fondo, $texto) {
+  display: inline-block;
+  padding: .75rem 1.1rem;
+  border-radius: .45rem;
+  background: $fondo;
+  color: $texto;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .2s, background .2s;
+
+  &:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+  }
+}

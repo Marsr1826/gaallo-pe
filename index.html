@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        Inicio | GAALLO.PE
+    </title>
+    <meta content="GAALLO.PE: noticias, an&aacute;lisis y pasi&oacute;n por el f&uacute;tbol peruano."
+        name="description" />
+    <meta content="GAALLO.PE, portada de f&uacute;tbol, noticias recomendadas, f&uacute;tbol peruano, Liga 1, hinchas"
+        name="keywords" />
+    <link href="assets/img/favicon.svg" rel="icon" type="image/svg+xml" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="styles/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Navegaci&oacute;n principal" class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img alt="GAALLO.PE" class="logo-nav" src="assets/img/logo-horizontal.png" />
+                </a>
+                <button aria-controls="menu" aria-expanded="false" aria-label="Abrir men&uacute;" class="navbar-toggler"
+                    data-bs-target="#menu" data-bs-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link active" href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/noticias.html">
+                                Noticias
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/que-hacemos.html">
+                                &iquest;Qu&eacute; hacemos?
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html">
+                                Nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero__contenido">
+                <img alt="Logo vertical de GAALLO.PE" class="hero-logo" src="assets/img/logo-vertical.png" />
+                <span class="etiqueta">
+                    GAALLO.PE &middot; F&uacute;tbol peruano
+                </span>
+                <h1>
+                    Somos el
+                    <strong>
+                        grito
+                    </strong>
+                    <br />
+                    del f&uacute;tbol peruano.
+                </h1>
+                <p>
+                    Noticias, goles, fichajes y todo lo que pasa dentro y fuera de la cancha.
+                </p>
+                <a class="btn-gaallo" href="pages/noticias.html">
+                    Explorar noticias &rarr;
+                </a>
+            </div>
+        </section>
+        <section class="seccion">
+            <div class="container">
+                <h2 class="seccion__titulo">
+                    En primera plana
+                </h2>
+                <p class="seccion__intro">
+                    Desliza para conocer los temas que m&aacute;s nos mueven.
+                </p>
+                <div aria-label="Temas destacados de GAALLO.PE" class="carousel slide carrusel-gaallo"
+                    data-bs-ride="carousel" id="carruselGaallo">
+                    <div class="carousel-indicators">
+                        <button aria-current="true" aria-label="Tema 1" class="active" data-bs-slide-to="0"
+                            data-bs-target="#carruselGaallo" type="button">
+                        </button>
+                        <button aria-label="Tema 2" data-bs-slide-to="1" data-bs-target="#carruselGaallo" type="button">
+                        </button>
+                        <button aria-label="Tema 3" data-bs-slide-to="2" data-bs-target="#carruselGaallo" type="button">
+                        </button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div aria-label="La pasi&oacute;n se grita en la cancha"
+                                class="carrusel-panel carrusel-panel--imagen" role="group">
+                                <img alt="Jugadores de Alianza Lima celebrando un gol" class="carrusel-panel__foto"
+                                    src="assets/img/alianza-celebracion.jpg" />
+                                <div class="carrusel-panel__contenido">
+                                    <span class="etiqueta">
+                                        F&uacute;tbol peruano
+                                    </span>
+                                    <h3>
+                                        La pasi&oacute;n se grita en la cancha
+                                    </h3>
+                                    <p>
+                                        Cada partido deja una historia. En GAALLO.PE seguimos los goles, las
+                                        celebraciones y todo lo que hace vibrar al hincha.
+                                    </p>
+                                    <a class="btn-gaallo" href="pages/noticias.html">
+                                        Ver m&aacute;s &rarr;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div aria-label="125 a&ntilde;os de sentimiento blanquiazul"
+                                class="carrusel-panel carrusel-panel--imagen" role="group">
+                                <img alt="Plantel de Alianza Lima en el campo de juego" class="carrusel-panel__foto"
+                                    src="assets/img/alianza-equipo.jpg" />
+                                <div class="carrusel-panel__contenido">
+                                    <span class="etiqueta">
+                                        Historia y pasi&oacute;n
+                                    </span>
+                                    <h3>
+                                        125 a&ntilde;os de sentimiento blanquiazul
+                                    </h3>
+                                    <p>
+                                        Un club, generaciones de hinchas y una historia que sigue escribi&eacute;ndose.
+                                        El f&uacute;tbol tambi&eacute;n se vive fuera de los 90 minutos.
+                                    </p>
+                                    <a class="btn-gaallo" href="pages/noticias.html">
+                                        Ver m&aacute;s &rarr;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div aria-label="El f&uacute;tbol tambi&eacute;n se vive en pantalla"
+                                class="carrusel-panel carrusel-panel--imagen" role="group">
+                                <img alt="Aficionado sorprendido viendo f&uacute;tbol en pantalla"
+                                    class="carrusel-panel__foto" src="assets/img/futbol-digital.jpg" />
+                                <div class="carrusel-panel__contenido">
+                                    <span class="etiqueta">
+                                        Comunidad
+                                    </span>
+                                    <h3>
+                                        El f&uacute;tbol tambi&eacute;n se vive en pantalla
+                                    </h3>
+                                    <p>
+                                        La jugada que no esperabas, el gol que vuelves a ver y el debate que nunca
+                                        termina. As&iacute; vivimos el f&uacute;tbol.
+                                    </p>
+                                    <a class="btn-gaallo" href="pages/noticias.html">
+                                        Ver m&aacute;s &rarr;
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carruselGaallo"
+                        type="button">
+                        <span aria-hidden="true" class="carousel-control-prev-icon">
+                        </span>
+                        <span class="visually-hidden">
+                            Anterior
+                        </span>
+                    </button>
+                    <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carruselGaallo"
+                        type="button">
+                        <span aria-hidden="true" class="carousel-control-next-icon">
+                        </span>
+                        <span class="visually-hidden">
+                            Siguiente
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="seccion seccion--alternativa">
+            <div class="container">
+                <div class="seccion__cabecera">
+                    <h2 class="seccion__titulo">
+                        Te recomendamos
+                    </h2>
+                    <a class="enlace-rojo" href="pages/noticias.html">
+                        Todas las noticias &rarr;
+                    </a>
+                </div>
+                <div class="grilla">
+                    <article class="noticia" data-aos="fade-up">
+                        <div class="noticia__foto">
+                            <img alt="Dise&ntilde;o deportivo original de GAALLO.PE: D&iacute;a de cl&aacute;sico"
+                                loading="lazy" src="assets/img/clasico-universitario-sporting-cristal.png" />
+                        </div>
+                        <div class="noticia__cuerpo">
+                            <span class="etiqueta">
+                                Cl&aacute;sico
+                            </span>
+                            <h3>
+                                D&iacute;a de cl&aacute;sico
+                            </h3>
+                            <p>
+                                Universitario busca levantarse tras el golpe en Cusco. Cristal llega con confianza y
+                                quiere arruinar la fiesta crema. &iquest;Qui&eacute;n se va sonriendo?
+                            </p>
+                            <a class="enlace-rojo" href="pages/noticias.html#clasico">
+                                Leer m&aacute;s &rarr;
+                            </a>
+                        </div>
+                    </article>
+                    <article class="noticia" data-aos="fade-up">
+                        <div class="noticia__foto">
+                            <img alt="Dise&ntilde;o deportivo original de GAALLO.PE: Se les escap&oacute; la fiesta"
+                                loading="lazy" src="assets/img/universitario-sporting-cristal-empate.png" />
+                        </div>
+                        <div class="noticia__cuerpo">
+                            <span class="etiqueta">
+                                Liga 1
+                            </span>
+                            <h3>
+                                Se les escap&oacute; la fiesta
+                            </h3>
+                            <p>
+                                La &lsquo;U&rsquo; quer&iacute;a celebrar sus 102 a&ntilde;os con tres puntos, pero
+                                Cristal le apag&oacute; la fiesta. Lapadula abri&oacute; el marcador y Yot&uacute;n puso
+                                el 1-1.
+                            </p>
+                            <a class="enlace-rojo" href="pages/noticias.html#empate">
+                                Leer m&aacute;s &rarr;
+                            </a>
+                        </div>
+                    </article>
+                    <article class="noticia" data-aos="fade-up">
+                        <div class="noticia__foto">
+                            <img alt="Dise&ntilde;o deportivo original de GAALLO.PE: &iexcl;Lapadula encendi&oacute; el Monumental!"
+                                loading="lazy" src="assets/img/gol-lapadula-universitario.png" />
+                        </div>
+                        <div class="noticia__cuerpo">
+                            <span class="etiqueta">
+                                Goles
+                            </span>
+                            <h3>
+                                &iexcl;Lapadula encendi&oacute; el Monumental!
+                            </h3>
+                            <p>
+                                &iexcl;Lo grit&oacute; el Monumental! Lapadula apareci&oacute; para adelantar a la
+                                &lsquo;U&rsquo;. Un gol que encendi&oacute; la ilusi&oacute;n crema, aunque la fiesta no
+                                termin&oacute; como esperaban.
+                            </p>
+                            <a class="enlace-rojo" href="pages/noticias.html#gol">
+                                Leer m&aacute;s &rarr;
+                            </a>
+                        </div>
+                    </article>
+                    <article class="noticia" data-aos="fade-up">
+                        <div class="noticia__foto">
+                            <img alt="Gr&aacute;fica del encuentro Melgar y Sporting Cristal" loading="lazy"
+                                src="assets/img/melgar-cristal.jpg" />
+                        </div>
+                        <div class="noticia__cuerpo">
+                            <span class="etiqueta">
+                                Liga 1
+                            </span>
+                            <h3>
+                                Arequipa tambi&eacute;n juega su partido
+                            </h3>
+                            <p>
+                                Melgar y Sporting Cristal protagonizan una previa que promete emociones. En la Liga 1,
+                                cada fecha tiene su propia historia.
+                            </p>
+                            <a class="enlace-rojo" href="pages/noticias.html">
+                                Ver noticias &rarr;
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="seccion">
+            <div class="container">
+                <div class="bloque-rojo" data-aos="zoom-in">
+                    <h2 class="fw-bold">
+                        &iquest;T&uacute; tambi&eacute;n vives el f&uacute;tbol as&iacute;?
+                    </h2>
+                    <p>
+                        S&iacute;guenos para m&aacute;s contenido futbolero, debates y novedades.
+                    </p>
+                    <a class="btn-secundario" href="https://www.instagram.com/gaallo.pe/" rel="noopener noreferrer"
+                        target="_blank">
+                        Seguir a @gaallo.pe &nearrow;
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pie">
+        <div class="container d-flex flex-wrap justify-content-between gap-2">
+            <span>
+                &copy; 2026 GAALLO.PE &middot; Somos grito del f&uacute;tbol peruano.
+            </span>
+            <a href="https://www.instagram.com/gaallo.pe/" rel="noopener noreferrer" target="_blank">
+                Instagram &nearrow;
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+</body>
+
+</html>

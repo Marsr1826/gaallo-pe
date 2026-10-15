@@ -1,0 +1,30 @@
+@use 'variables' as v;
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: v.$negro;
+    color: v.$blanco;
+    font-family: v.$fuente;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+:focus-visible {
+    outline: 3px solid v.$rojo;
+    outline-offset: 3px;
+}
